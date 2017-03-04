@@ -1,2 +1,2 @@
 # leetcode
-Solutions to LeetCode Algorithms Questions
+Java Solutions to LeetCode Algorithms Questions
