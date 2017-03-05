@@ -1,3 +1,6 @@
+// We can solve this question using a HashSet, but it requires O(n) space.
+// We use the array itself for marking existing numbers.
+// Therefore, we do not need extra memory (result list is not considered as extra memory).
 public List<Integer> findDisappearedNumbers(int[] nums) {
     for (int i = 0; i < nums.length; i++) {
         // Here we use absolute value to ensure the index is positive.
